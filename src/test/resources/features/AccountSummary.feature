@@ -1,7 +1,9 @@
+
+@Account
 Feature: the Account summary page should display the correct information
 
   Background: that the user is on the Account summary page
-
+    Given the user has signed in
   Scenario: Account summary page should display the title Zero-Account summary
 
     When  the page is loaded
